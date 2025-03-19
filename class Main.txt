@@ -1,0 +1,25 @@
+class Main
+{
+    void test()
+    {
+        System.out.println("No Parameter");
+    }
+    void test (int a)
+    {
+        System.out.println(a);
+    }
+    void test (double a)
+    {
+        System.out.println(a*a);
+    }
+}
+class overload {
+    public static void main(String[] args)
+    {
+        int i = 88;
+        Main obj = new Main();
+        obj.test;
+        obj.test(10,20);
+        obj.test(153,25);
+    }
+}
